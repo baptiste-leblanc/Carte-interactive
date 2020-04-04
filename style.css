@@ -1,0 +1,65 @@
+/* votre code CSS */
+
+              /* CARACTERISTIQUES DE LA MAP */
+
+#mapid {
+  height: 550px;
+  width: 550px;
+  border-radius: 5%;
+  width: 100%
+}
+
+
+                /* TITRE DE LA PAGE */
+
+p {
+  font-size: 40px;
+}
+
+span {
+  text-decoration-thickness: underline 10px;
+}
+
+
+                /* FAIRE DISPARAÎTRE LA PHRASE EN BAS SUR LA CARTE */
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+                /* DIFFERENTS ATTRIBUTS */
+
+.description {
+  color: grey;
+  font-size: 12px;
+}
+
+input {
+  margin-left: 100px;
+}
+
+.btn {
+  position: absolute;
+  margin-left: 50px;
+}
+
+                /* LES TROIS ICÔNES */
+
+.music {
+  width: 20%;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 45%;
+}
+
+.restaurant {
+  position: absolute;
+  margin-top: 25%;  
+  margin-left: 55%;
+}
+
+.musee {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 65%;
+}
